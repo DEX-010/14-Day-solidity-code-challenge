@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_courseInstance",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "courseInstance",
+				"outputs": [
+					{
+						"internalType": "contract FundTheCourse",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_courseName",
+						"type": "string"
+					}
+				],
+				"name": "createCallback",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FundTheCourse/Subordinate.sol": "ExtendWallet"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FundTheCourse/Main.sol": {
+			"keccak256": "0xe6c96a6ce3e21bd493e7b2c860307a20aa1b43b27a6d691e682aa5bb83f33021",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9cc64194c7e713dabab62ab14ae72e604dd1612532c9899757c24b78262f03b",
+				"dweb:/ipfs/QmP7HZD6RgVCfKK2KCzXNxX2BSokSN66kdZrNdDci8fZVb"
+			]
+		},
+		"FundTheCourse/Subordinate.sol": {
+			"keccak256": "0xb2ab1c98002880da6799236eef40d015789cb72583890707c3ad0499e8ec6343",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a5270df440d58551806441f9d3bf6e08fdcb3469129dd7e93b107d3c53888279",
+				"dweb:/ipfs/QmRQkj9qwp3Y3bWw3BaMcrxWLj5GtEpPXF7LpXhLYixbW8"
+			]
+		}
+	},
+	"version": 1
+}
